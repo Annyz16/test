@@ -25,6 +25,11 @@ namespace ConsoleApplication1
             set { tail = value; }
         }
         int x;
+        public void addfirst(Node<N> n)
+        {
+            n.Next = head;
+            this.head = n;
+        }
        
     }
 }
