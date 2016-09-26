@@ -24,7 +24,7 @@ namespace ConsoleApplication1
             get { return tail; }
             set { tail = value; }
         }
-
+        int x;
        
     }
 }
