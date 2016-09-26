@@ -23,6 +23,6 @@ namespace ConsoleApplication1
             get { return next; }
             set { next = value; }
         }
-
+//da sua
     }
 }
